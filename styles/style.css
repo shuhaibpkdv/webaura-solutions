@@ -1,3 +1,7 @@
+body {
+  margin: 0px;
+}
+
 .navbar-container {
   display: flex;
   align-items: center;
@@ -63,4 +67,123 @@
   background: linear-gradient(90deg, #6607e3 0%, #7d52c2 100%);
   border: none;
   border-radius: 9999px;
+}
+
+.banner-container {
+  padding: 0px 60px 40px 60px;
+  background-color: #f0f0ff;
+}
+
+.banner {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.banner-left {
+  width: 50%;
+}
+
+.banner-left ul {
+  width: fit-content;
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+
+  background-color: rgb(197, 197, 241);
+  border: none;
+  border-radius: 999px;
+}
+
+.banner-left ul li {
+  list-style: none;
+  color: #3f3ff4;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.banner-head {
+  font-size: 75px;
+  font-family: Arial;
+  color: #3f3ff4;
+  margin: 50px 0px 30px 0px;
+}
+
+.banner-desc {
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+  width: 600px;
+}
+
+.banner-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+}
+
+.banner-right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-btn {
+  background-color: #3f3ff4;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  padding: 12px 20px;
+}
+
+.view-btn {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 999px;
+  padding: 12px 20px;
+}
+
+.features-container {
+  background-color: #f0f0ff;
+  padding: 0px 40px;
+}
+
+.features {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.modern-container,
+.responsive-container,
+.performance-container,
+.growth-container {
+  width: 225px;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background: white;
+}
+
+.modern-container p,
+.responsive-container p,
+.performance-container p,
+.growth-container p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  margin: 0px;
+}
+
+.modern-container .head,
+.responsive-container .head,
+.performance-container .head,
+.growth-container .head {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
 }
