@@ -220,3 +220,107 @@ body {
   font-size: 17px;
   font-weight: 300;
 }
+
+
+
+
+
+/* shafal*/
+.features {
+    padding: 100px 8%;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.small-title {
+    color: #3b82f6;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #183b80;
+    margin-bottom: 15px;
+}
+
+.intro {
+    max-width: 650px;
+    color: #64748b;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 60px;
+}
+
+.feature-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px;
+}
+
+.feature {
+    padding: 10px;
+}
+
+.icon {
+    width: 42px;
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+
+    color: white;
+    font-size: 20px;
+
+    margin-bottom: 22px;
+}
+
+.blue {
+    background: #3b82f6;
+}
+
+.purple {
+    background: #7c3aed;
+}
+
+.cyan {
+    background: #06b6d4;
+}
+
+.feature h2 {
+    font-size: 18px;
+    color: #1e3a8a;
+    margin-bottom: 15px;
+}
+
+.feature p {
+    color: #64748b;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .features {
+        padding: 60px 25px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .feature-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}
+
