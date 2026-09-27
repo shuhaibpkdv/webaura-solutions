@@ -220,3 +220,147 @@ body {
   font-size: 17px;
   font-weight: 300;
 }
+
+
+
+
+
+/* shafal*/
+ .philosaphy-container{
+    padding: 100px 8%;
+}
+
+.philosaphy {
+    max-width: 1100px;
+    margin: auto;
+
+    background: #f0f2ff;
+    padding: 55px 35px;
+    border-radius: 18px;
+    
+}
+
+.philosaphy-label{
+    
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    color:#3f3ff4 ;
+    font-family:"Roboto";
+}
+
+h1 {
+    font-size: 48px;
+    color: black;
+    margin-bottom: 15px;
+     font-family:"Roboto";
+
+}
+
+.intro {
+    max-width: 650px;
+    color: #64748b;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 60px;
+      font-family:"Roboto";
+}
+
+.philosaphy-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+     position: relative;
+       font-family:"Roboto";
+}
+.philosaphy-box::before {
+    content: "";
+
+    position: absolute;
+
+    top: 20px;
+    left: 30px;
+    right: 30px;
+
+    height: 2px;
+
+    background: #c7c9ff;
+
+    z-index: 0;
+}
+
+
+
+
+.philosaphy-card{
+    padding: 15px;
+     background: white;
+       border-radius: 12px;
+    min-height: 160px;
+    position: relative;
+    z-index: 1;
+      font-family:"Roboto";
+}
+
+.icon {
+    width: 42px;
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+
+    color: white;
+    font-size: 20px;
+
+    margin-bottom: 22px;
+      position: relative;
+    z-index: 2;
+}
+
+.blue {
+    background: #3b82f6;
+}
+
+.purple {
+    background: #7c3aed;
+}
+
+.cyan {
+    background: #06b6d4;
+}
+
+.philosaphy-container h2 {
+    font-size: 18px;
+    color: #1e3a8a;
+    margin-bottom: 15px;
+      font-family:"Roboto";
+}
+
+.p {
+    color: #64748b;
+    font-size: 14px;
+    line-height: 1.8;
+      font-family:"Roboto";
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .philosaphy-container{
+        padding: 60px 25px;
+    }
+
+    .philosaphy h1 {
+        font-size: 36px;
+          font-family:"Roboto";
+    }
+
+    .philosaphy-box{
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }}
+    
