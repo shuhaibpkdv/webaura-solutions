@@ -1470,3 +1470,598 @@ h1 {
     }
 
 }
+/*coversation section shafal*/
+/* =========================================
+   CONTACT SECTION
+========================================= */
+
+.contact-section {
+
+    width: 100%;
+
+    background: #f7f7fc;
+
+    padding: 60px 30px;
+}
+
+
+.contact-container {
+
+    max-width: 1180px;
+
+    margin: 0 auto;
+
+    background: #ffffff;
+
+    border-radius: 20px;
+
+    padding: 65px 55px;
+
+    display: grid;
+
+    grid-template-columns: 0.9fr 1.1fr;
+
+    gap: 50px;
+
+    box-shadow:
+        0 15px 35px rgba(30, 40, 70, 0.12);
+}
+
+
+/* =========================================
+   LEFT SIDE
+========================================= */
+
+.contact-left {
+
+    padding-top: 20px;
+}
+
+
+.contact-label {
+
+  color: #3f3ff4;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    letter-spacing: 1.5px;
+
+    margin-bottom: 14px;
+     font-family:"Roboto";
+}
+
+
+.contact-left h1 {
+
+    color: #17213b;
+
+    font-size: 48px;
+
+    line-height: 1.15;
+
+    margin: 0 0 20px;
+
+    font-weight: 700;
+     font-family:"Roboto";
+}
+
+
+.contact-description {
+
+    color: #5e6473;
+
+    font-size: 16px;
+
+    line-height: 1.65;
+
+    max-width: 470px;
+
+    margin-bottom: 30px;
+     font-family:"Roboto";
+}
+
+
+/* =========================================
+   CONTACT BOXES
+========================================= */
+
+.contact-box {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    width: 100%;
+
+    max-width: 420px;
+
+    padding: 15px;
+
+    margin-bottom: 15px;
+
+    border-radius: 10px;
+
+    background: #e9edff;
+
+    text-decoration: none;
+
+    transition: 0.25s;
+}
+
+
+.contact-box:hover {
+
+    transform: translateY(-2px);
+}
+
+
+.contact-icon {
+
+    width: 48px;
+
+    height: 48px;
+
+    min-width: 48px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 10px;
+
+    color: white;
+
+    font-size: 21px;
+     font-family:"Roboto";
+}
+
+
+.whatsapp-icon {
+
+    background: #16b978;
+}
+
+
+.email-icon {
+
+    background: #0759c7;
+}
+
+
+.contact-box h3 {
+
+    color: #17213b;
+
+    font-size: 15px;
+
+    margin: 0 0 4px;
+
+    font-weight: 700;
+     font-family:"Roboto";
+}
+
+
+.contact-box p {
+
+    color: #697080;
+
+    font-size: 13px;
+
+    margin: 0;
+     font-family:"Roboto";
+}
+
+
+/* =========================================
+   FOLLOW
+========================================= */
+
+.follow-section {
+
+    display: flex;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    margin-top: 28px;
+}
+
+
+.follow-title {
+
+    color: #727784;
+
+    font-size: 11px;
+
+    font-weight: 600;
+
+    margin-right: 5px;
+     font-family:"Roboto";
+}
+
+
+.social-pill {
+
+    padding: 6px 12px;
+
+    border-radius: 20px;
+
+    background: #edf0ff;
+
+    color: #30384d;
+
+    text-decoration: none;
+
+    font-size: 11px;
+
+    font-weight: 600;
+     font-family:"Roboto";
+}
+
+
+/* =========================================
+   DIVIDER
+========================================= */
+
+.contact-divider {
+
+    width: 100%;
+
+    max-width: 420px;
+
+    height: 1px;
+
+    background: #e5e6eb;
+
+    margin: 28px 0 20px;
+}
+
+
+/* =========================================
+   NOTE
+========================================= */
+
+.contact-note {
+
+    color: #646a77;
+
+    font-size: 12px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 7px;
+     font-family:"Roboto";
+}
+
+
+.verified-icon {
+
+    color: #16a085;
+
+    font-size: 16px;
+     font-family:"Roboto";
+}
+
+
+/* =========================================
+   FORM CONTAINER
+========================================= */
+
+.contact-form-container {
+
+    background: #f0f1ff;
+
+    border-radius: 16px;
+
+    padding: 32px;
+}
+
+
+/* =========================================
+   FORM ROW
+========================================= */
+
+.form-row {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 15px;
+
+    margin-bottom: 16px;
+}
+
+
+.form-group {
+
+    margin-bottom: 16px;
+}
+
+
+.form-group label {
+
+    display: block;
+
+    color: #202638;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    margin-bottom: 7px;
+     font-family:"Roboto";
+}
+
+
+.form-group input,
+.form-group textarea {
+
+    width: 100%;
+
+    border: none;
+
+    outline: none;
+
+    background: #ffffff;
+
+    border-radius: 8px;
+
+    padding: 13px 14px;
+
+    font-family: inherit;
+
+    font-size: 14px;
+
+    color: #303746;
+
+    box-sizing: border-box;
+     font-family:"Roboto";
+}
+
+
+.form-group input {
+
+    height: 46px;
+}
+
+
+.form-group textarea {
+
+    height: 100px;
+
+    resize: vertical;
+
+    line-height: 1.5;
+}
+
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+
+    color: #8b8f99;
+}
+
+
+/* =========================================
+   SERVICES
+========================================= */
+
+.services-group {
+
+    margin-bottom: 16px;
+}
+
+
+.service-options {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 7px;
+}
+
+
+.service-option {
+
+    border: none;
+
+    outline: none;
+
+    background: #ffffff;
+
+    color: #343946;
+
+    padding: 9px 6px;
+
+    min-height: 34px;
+
+    border-radius: 8px;
+
+    font-size: 11px;
+
+    font-family: inherit;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+     font-family:"Roboto";
+}
+
+
+.service-option:hover {
+
+    background: #e1e6ff;
+}
+
+
+.service-option.active {
+
+    background: #0959c9;
+
+    color: #ffffff;
+
+    box-shadow:
+        0 3px 8px rgba(0, 90, 200, 0.25);
+}
+
+
+/* =========================================
+   SUBMIT BUTTON
+========================================= */
+
+.submit-button {
+
+    width: 100%;
+
+    height: 52px;
+
+    border: none;
+
+    border-radius: 30px;
+
+    background:
+        linear-gradient(
+            90deg,
+            #2563eb,
+            #7c2be8
+        );
+
+    color: white;
+
+    font-family: inherit;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 8px 18px rgba(50, 80, 220, 0.25);
+
+    transition: 0.25s;
+     font-family:"Roboto";
+}
+
+
+.submit-button:hover {
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 12px 25px rgba(50, 80, 220, 0.35);
+}
+
+
+/* =========================================
+   SECURITY TEXT
+========================================= */
+
+.form-securty {
+
+    text-align: center;
+
+    color: #777d89;
+
+    font-size: 11px;
+
+    margin: 18px 0 0;
+     font-family:"Roboto";
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 900px) {
+
+    .contact-container {
+
+        grid-template-columns: 1fr;
+
+        padding: 45px 30px;
+    }
+
+
+    .contact-left {
+
+        padding-top: 0;
+    }
+
+
+    .contact-form-container {
+
+        width: 100%;
+
+        box-sizing: border-box;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .contact-section {
+
+        padding: 30px 15px;
+    }
+
+
+    .contact-container {
+
+        padding: 35px 20px;
+
+        border-radius: 15px;
+
+        gap: 35px;
+    }
+
+
+    .contact-left h1 {
+
+        font-size: 38px;
+         font-family:"Roboto";
+    }
+
+
+    .contact-description {
+
+        font-size: 14px;
+         font-family:"Roboto";
+    }
+
+
+    .form-row {
+
+        grid-template-columns: 1fr;
+
+        gap: 0;
+    }
+
+
+    .service-options {
+
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .contact-form-container {
+
+        padding: 22px 18px;
+    }
+
+}
