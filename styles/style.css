@@ -372,7 +372,7 @@ h1 {
 .roadmap-section {
     width: 100%;
     background: #f8f8ff;
-    padding: 100px 32px 80px;
+    padding: 100px 0px;
 }
 
 
@@ -812,7 +812,7 @@ h1 {
 
     background: #f8f8ff;
 
-    padding: 85px 40px;
+    padding: 85px 0px;
 }
 
 
@@ -1129,7 +1129,7 @@ h1 {
 
     background: #f8f8ff;
 
-    padding: 85px 30px 70px;
+    padding: 85px 0px;
 }
 
 
@@ -1481,7 +1481,7 @@ h1 {
 
     background: #f7f7fc;
 
-    padding: 60px 30px;
+    padding: 60px 0px;
 }
 
 
