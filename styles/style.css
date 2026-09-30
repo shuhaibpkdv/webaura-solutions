@@ -157,9 +157,11 @@ body {
 .features {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 20px;
   border-radius: 16px;
+  margin: 0px auto;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
 }
 
 .modern-container,
@@ -173,25 +175,45 @@ body {
   background: white;
 }
 
+.modern-container .icon,
+.responsive-container .icon,
+.performance-container .icon,
+.growth-container .icon {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto";
+  margin-bottom: 22px;
+  position: relative;
+  z-index: 2;
+}
+
 .modern-container p,
 .responsive-container p,
 .performance-container p,
 .growth-container p {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
-  margin: 0px;
 }
 
 .modern-container .head,
 .responsive-container .head,
 .performance-container .head,
 .growth-container .head {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
+  font-size: 18px;
+  color: #1e3a8a;
+  margin-bottom: 15px;
+  font-family: "Roboto";
 }
 
 .services {
   padding: 0px 40px;
+  margin-top: 40px;
 
   display: flex;
   flex-direction: column;
